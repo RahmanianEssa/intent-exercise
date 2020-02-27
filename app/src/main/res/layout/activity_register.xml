@@ -43,6 +43,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/image_profile"
                 app:layout_constraintEnd_toEndOf="@+id/image_profile"
                 app:srcCompat="@drawable/edit_icon"
+                android:onClick="handleFoto"
                 />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -188,7 +189,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:onClick="handleOkRegister"
+       android:onClick="handlerok"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
