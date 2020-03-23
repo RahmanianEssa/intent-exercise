@@ -145,6 +145,7 @@ public class RegisterActivity extends AppCompatActivity implements Validator.Val
     }
 
     public void handlerok(View view) {
-            validator.validate();
+
+        validator.validate();
     }
 }
